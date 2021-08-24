@@ -1,4 +1,17 @@
-h1 {
-    color: blue;
-    font-size: 60px;
+:root {
+    --mauh1: rgb(55, 21, 248);
+}
+#heading1 {
+    color: var(--mauh1);
+    background-color: darkgray;
+    width: 286px;
+    height: 46px;
+    /* chỉnh ảnh có độ dày 4px, màu 333 và viền liền */
+    border: 4px #333 solid ;
+    /* chỉnh viền ngoài cùng của ảnh ở phía trên tăng thêm 3px */
+    margin-top: 3px;
+    /* Tạo background cho chữ 'Trang Chủ' */
+    background-image: url(http://images4.fanpop.com/image/photos/24400000/Girls-with-Slingshots-Wallpaper-web-comics-24456123-1024-768.jpg);
+    background-size: 1000px;
+    
 }
