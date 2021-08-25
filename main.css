@@ -15,3 +15,31 @@
     background-size: 1000px;
     
 }
+.login{
+    width: 300px;
+    height: 300px;
+    border: 5px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    
+
+    
+
+}
+h2{
+    font-family: sans-serif;
+    color:limegreen;
+}
+input{
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: rgb(14, 107, 230);
+    color: linen;
+}
