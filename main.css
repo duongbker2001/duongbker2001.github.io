@@ -1,45 +1,44 @@
-:root {
-    --mauh1: rgb(55, 21, 248);
-}
-#heading1 {
-    color: var(--mauh1);
-    background-color: darkgray;
-    width: 286px;
-    height: 46px;
-    /* chỉnh ảnh có độ dày 4px, màu 333 và viền liền */
-    border: 4px #333 solid ;
-    /* chỉnh viền ngoài cùng của ảnh ở phía trên tăng thêm 3px */
-    margin-top: 3px;
-    /* Tạo background cho chữ 'Trang Chủ' */
-    background-image: url(http://images4.fanpop.com/image/photos/24400000/Girls-with-Slingshots-Wallpaper-web-comics-24456123-1024-768.jpg);
-    background-size: 1000px;
-    
-}
-.login{
+h1 {
     width: 300px;
-    height: 300px;
-    border: 5px solid grey;
+    height: 45px;
+    border: 5px solid gray;
     border-radius: 10px;
     text-align: center;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
     
-
+}
+.chat {
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+   
     
 
 }
-h2{
-    font-family: sans-serif;
-    color:limegreen;
-}
-input{
-    height: 50px;
-    width: 200px;
-    margin-top: 10px;
+button {
+    background-color: rgb(28, 102, 238);
+    color: mintcream;
     border-radius: 10px;
 }
-button{
-    height: 30px;
-    width: 100px;
-    margin-top: 10px;
-    background-color: rgb(14, 107, 230);
-    color: linen;
+textarea {
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
+.video {
+    width: 720px;
+    height: 500px;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    text-align: center;
+    color: green;
+    font-family:cursive;
+
+}
+
+

@@ -1,5 +1,13 @@
-age= prompt('Nhập tuổi của bạn')
-setTimeout(function()  {
-    if(age>=18) {alert('Bạn đã đủ tuổi để truy cập trang Web')}
-    if(age<18) {alert("Bạn chưa đủ 18 tuổi! Vui lòng thoát ra!!")}
-},1000);
+const express = require('express')
+const app = express()
+
+const http = require('http')
+const server = http.createServer(app)
+
+
+app.length('/', (req, res) => {
+    res.send('Hello World');
+})
+server.listen(3000, () => {
+    console.log('listening on port 3000')
+})

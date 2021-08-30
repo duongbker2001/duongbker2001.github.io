@@ -1,0 +1,50 @@
+.dangki{
+
+    width: 500px;
+    height: 450px;
+    border: 5px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+h2{
+    font-family: sans-serif;
+    color:limegreen;
+}
+#username1{
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#password1{
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#password2{
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#email1{
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    padding-top: 0px;
+    background-color: rgb(35, 17, 197);
+    color: linen;
+}
