@@ -5,28 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Chủ</title>
+    
 </head>
 <body>
+    
     <link rel="stylesheet" href="main.css">
     <h1>💻TRANG CHỦ💻</h1>
     <br>
     <table cellspacing ="30">
         <tr>
             <td><div class="chat">
-                    <p>TÂM SỰ</p>
-                    <textarea cols="70" rows="10">Hello World!</textarea>
-                    <br>
-                    <button>Gửi</button>
+                    <p style="color: lightcoral;">❤️TÂM SỰ❤️</p>
+                    <div>
+                        <label>Tên Của Bạn: </label>
+                        <br>
+                        <input id="nhapten" type="text" name="name">
+                        
+                    </div>
+                    <div>
+                        <br>
+                        <label>Nhập Nội Dung: </label>
+                        <textarea name="mota" cols="63" rows="8"></textarea>
+                    </div>
+                    <div>
+                        <button id="create" >Gửi</button>
+                    </div>
                 </div>
             </td>
-            <td><div class="video" >
-                    <p>Chill Cùng Nhau</p>
-                    <video width="700px" height="400px" controls="controls" src="./harehareyo.mp4"></video>
+            
+            <td>
+                <div class="postmes">
+                    <h4 style="color: royalblue;" ><b style="font-size: 20px;"><u>Nội Dung Chát</u></b></h4>
+                    <p id="list-courses"></p>
                 </div>
             </td>
         </tr>
 
     </table>
+    <div class="video" >
+        <p>Chill Cùng Nhau</p>
+        <video width="1000px" height="430px" controls="controls" src="./harehareyo.mp4"></video>
+    </div>
+    
+    <script src="./app.js"></script>
     
     
     
