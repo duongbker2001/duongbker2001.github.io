@@ -17,6 +17,12 @@ h2{
     margin-top: 10px;
     border-radius: 10px;
     text-align: center;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+#username1:hover{
+    transform: scale(1.25);
 }
 #password1{
     height: 50px;
@@ -24,6 +30,12 @@ h2{
     margin-top: 10px;
     border-radius: 10px;
     text-align: center;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+#password1:hover {
+    transform: scale(1.25);
 }
 #password2{
     height: 50px;
@@ -31,20 +43,35 @@ h2{
     margin-top: 10px;
     border-radius: 10px;
     text-align: center;
+    transition: all 1s;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+}
+#password2:hover{
+    transform: scale(1.25);
 }
 #email1{
+    transition: all 1s;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
     height: 50px;
     width: 300px;
     margin-top: 10px;
     border-radius: 10px;
     text-align: center;
 }
+#email1:hover{
+    transform: scale(1.25);
+}
 
-a{
-    height: 30px;
-    width: 100px;
-    margin-top: 20px;
-    padding-top: 0px;
-    background-color: rgb(35, 17, 197);
-    color: linen;
+
+
+#button2 {
+    transition: all 1s;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s
+
+}
+#button2:hover{
+    transform: rotate(1turn);
 }
