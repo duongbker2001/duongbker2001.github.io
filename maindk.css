@@ -1,3 +1,6 @@
+body {
+    background-image: url(./logo.png);
+}
 .dangki{
 
     width: 500px;
@@ -5,6 +8,7 @@
     border: 5px solid grey;
     border-radius: 10px;
     text-align: center;
+    margin-left: 500px;
     
 }
 h2{

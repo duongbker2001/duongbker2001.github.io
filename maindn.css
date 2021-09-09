@@ -1,4 +1,7 @@
-
+body {
+    background-color: #111;
+    
+}
 .dangnhap{
 
     width: 500px;
@@ -6,6 +9,9 @@
     border: 5px solid orangered;
     border-radius: 10px;
     text-align: center;
+    align-items: center;
+    margin-left: 500px;
+    background-color: grey;
     
 }
 h2{
@@ -39,5 +45,5 @@ h2{
     transform: scale(1.25);
 }
 i {
-    color: grey;
+    color:black;
 }
