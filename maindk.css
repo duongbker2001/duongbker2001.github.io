@@ -1,5 +1,5 @@
 body {
-    background-image: url(./logo.png);
+    background-color:white;
 }
 .dangki{
 
@@ -9,11 +9,12 @@ body {
     border-radius: 10px;
     text-align: center;
     margin-left: 500px;
+    background-color: cornflowerblue;
     
 }
 h2{
     font-family: sans-serif;
-    color:limegreen;
+    color:grey;
 }
 #username1{
     height: 50px;
