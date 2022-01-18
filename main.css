@@ -1,68 +1,106 @@
-h1 {
-    width: 300px;
-    height: 45px;
-    border: 5px solid gray;
-    border-radius: 10px;
-    text-align: center;
-    color: orangered;
+#facebook
+{
+    color: rgb(91, 91, 253);
+    font-size: 65px;
+    padding: 112px 20px 6px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+#noidung
+{
+    padding: 0px 20px 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-left: 10px;
+}
+#khungnd
+{
+    width: 400px;
+    height: 258px;
+    padding: 0px 32px 0px 0px;
+    margin-left: 250px;
+}
+#khungdn
+{
+    margin-left: 700px;
+    margin-top: -200px;
+    width: 396px;
+    height: 349.83px;
+    background-color: white;
+    padding: 10px 0px 24px;
+    border-radius: 10px;
+}
+#maunen
+{
+    background-color:whitesmoke;
     
 }
-.chat {
-    text-align: center;
-    width: 600px;
-    height: 350px;
-    border: 5px solid orangered;
-    border-radius: 10px;
-    color: green;
-    font-family:'Times New Roman', Times, serif;
-   
-    
-
-}
-
-button {
-    background-color: rgb(28, 102, 238);
-    color: mintcream;
-    border-radius: 10px;
-}
-textarea {
+#email
+{
+    width: 330px;
+    height: 18px;
+    padding: 14px 16px;
     border-radius: 5px;
-    font-family: cursive;
-    font-size: 15px;
-}
-.video {
-    width: 1450px;
-    height: 550px;
-    border: 5px solid gray;
-    border-radius: 10px;
-    text-align: center;
-    color: green;
-    font-family:cursive;
-    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    margin-top: 20px;
     
-
-}
-.postmes {
-    text-align: center;
-    width: 600px;
-    height: 100%;
-    border: 5px solid orangered;
-    border-radius: 10px;
-    color: green;
-    font-family:cursive;
-
-}
-img {
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    height: 100px;
-    width: 100px; 
-    margin-left: 640px;
     
-
+    
 }
-img:hover {
-    transform: rotate(1turn);
+#password
+{
+    width: 330px;
+    height: 18px;
+    padding: 14px 16px;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    
+}
+#nutnhan1
+{
+    width: 364px;
+    height: 50px;
+    border-radius: 5px;
+    border-color:#1877F2 ;
+    background-color: #1877F2;
+    margin-bottom: 15px;
+    margin-left: 16px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#quenmk
+{
+    width: 103.51px;
+    height: 16px;
+    color: #1877F2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 145px;
+}
+#duonggach
+{
+    color: rgb(238, 224, 224);
+    margin-left: 17px;
+}
+#nutnhan2
+{
+    width: 178px;
+    height: 48px;
+    border-radius: 5px;
+    border-color:#42B72A ;
+    background-color: #42B72A;
+    margin-bottom: 15px;
+    margin-left: 110px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#thedangnhap
+{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
